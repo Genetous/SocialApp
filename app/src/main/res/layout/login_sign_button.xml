@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#000"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#171719"
+        android:id="@+id/no_arc"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/login_back_arc"
+        android:id="@+id/arc"
+        android:layout_below="@id/no_arc"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#000"
+        android:layout_below="@+id/arc"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:id="@+id/log_sign"
+            android:background="@drawable/log_sign_button_back"/>
+    </RelativeLayout>
+</RelativeLayout>

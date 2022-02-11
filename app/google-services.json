@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "186382189610",
+    "project_id": "socialapp-5fe8a",
+    "storage_bucket": "socialapp-5fe8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186382189610:android:8a0ae594af5bc33e8aaf53",
+        "android_client_info": {
+          "package_name": "com.mubo.socialapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186382189610-99vaof1hmctm8tsakug1dbvhn54bq3qg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl7X3mPEXBHiC2aMUqY5KJj3lUh-GzjRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186382189610-99vaof1hmctm8tsakug1dbvhn54bq3qg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

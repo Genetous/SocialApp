@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.ui.post.TextPostFragment">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:padding="16dp">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:id="@+id/counter"
+          android:textColor="@color/white_30"
+          android:textSize="10sp"
+          android:text="0 / 200"/>
+      <EditText
+          android:inputType="textMultiLine"
+          android:lines="10"
+          android:minLines="8"
+          android:gravity="top|left"
+          android:padding="8dp"
+          android:maxLines="10"
+          android:layout_height="wrap_content"
+          android:layout_width="match_parent"
+          android:scrollbars="vertical"
+          android:id="@+id/post_text"
+          android:layout_below="@+id/counter"
+          android:textColor="@color/white"
+          android:textColorHint="@color/white_30"
+          android:hint="What do you think?"
+          android:layout_marginTop="8dp"
+          android:maxLength="200"
+          android:background="@drawable/search_edittext" />
+
+  </RelativeLayout>
+
+</FrameLayout>

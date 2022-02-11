@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.ui.search.SearchFragment"
+    android:padding="8dp"
+    android:background="@drawable/login_back_first"
+    android:id="@+id/frm"
+    android:layout_marginBottom="60dp">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <EditText android:id="@+id/inputSearch"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:drawableLeft="@android:drawable/ic_menu_search"
+           android:hint="Find Users..."
+           android:textColorHint="@color/white_30"
+           android:inputType="text"
+           android:padding="6dp"
+           android:imeOptions="actionSearch"
+           android:background="@drawable/search_edittext"
+           android:theme="@style/ETTheme"
+           android:textColor="@color/white"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="@color/white"
+           android:text="Results"
+           android:padding="8dp"
+           android:layout_marginTop="8dp"
+           android:textSize="15sp"
+           android:textStyle="bold"
+           android:id="@+id/title_text"/>
+       <androidx.recyclerview.widget.RecyclerView
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:id="@+id/postrec"
+           android:layout_marginTop="16dp"/>
+   </LinearLayout>
+
+</FrameLayout>
